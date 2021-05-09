@@ -1,0 +1,97 @@
+.bg-container {
+    background-color: #1b1b1b;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.button {
+    color: black;
+    background-color: yellow;
+    border-width: 0px;
+    border-radius: 5px;
+
+
+}
+
+.abdul-paragraph {
+    font-family: 'Bree Serif';
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.abdul-page {
+    background-color: #1b1b1b;
+    padding: 24px;
+    text-align: center;
+}
+
+.abdul-detailed-image {
+    width: 190px;
+    height: 294px;
+    margin-bottom: 20px;
+
+}
+
+.home-abdul-image {
+    width: 126px;
+    height: 180px;
+
+}
+
+.home-card-container {
+    padding: 16px;
+}
+
+.mistakes-card-container {
+    padding: 15px;
+}
+
+.mistakes {
+    border-radius: 8px;
+    background-color: #1b1b1b;
+}
+
+.home-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding: 5px;
+}
+
+.home-top-card {
+    border-radius: 8px;
+
+    background-color: #e6f6ff;
+
+
+}
+
+.top-card-heading {
+    color: #183b56;
+    font-family: 'Bree Serif';
+    font-size: 16px;
+
+}
+
+.top-card-paragraph {
+    color: #06070d;
+    font-family: 'Bree Serif';
+    font-size: 12px;
+
+}
+
+.recomended {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.top-card-writen {
+    color: #183b56;
+    font-family: 'Bree Serif';
+    font-size: 10px;
+
+}

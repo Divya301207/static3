@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="flat.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="home-card d-flex flex-column justify-content-center">
+                <h1 class="home-heading">Sunrise Avenue</h1>
+                <p class="home-paragraph">Move to what moves you</p>
+                <div>
+                    <button class="button" onclick="display('sectionflats')">Book Flat</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="sectionflats">
+        <div class="flats-bg-container  d-flex flex-column">
+            <div class="flats-cards1 d-flex flex-row">
+
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="flat-card-images" onclick="display('section3bhk')" />
+                <div>
+                    <h1 class="flats-heading">3BHK Flat</h1>
+                    <p class="flats-paragraph">This is fully furnished house with<br />
+                        handmade furniture including a luxury <br />
+                        en-suite facilities pack. It's built-up area<br />
+                        is about 1600sq.ft.A spacious home for you to live in</p>
+
+                </div>
+            </div>
+            <div class="flats-cards2 d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="flat-card-images" onclick="display('section2bhk')" />
+                <div>
+                    <h1 class="flats-heading">2BHK Flat</h1>
+                    <p class="flats-paragraph">This is fully furnished house with<br />
+                        handmade furniture including a luxury <br />
+                        en-suite facilities pack. It's built-up area<br />
+                        is about 1600sq.ft.A spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="flats-cards3 d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="flat-card-images" onclick="display('section4bhk')" />
+                <div>
+                    <h1 class="flats-heading">4BHK Flat</h1>
+                    <p class="flats-paragraph">This is fully furnished house with<br />
+                        handmade furniture including a luxury <br />
+                        en-suite facilities pack. It's built-up area<br />
+                        is about 1600sq.ft.A spacious home for you to live in</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="button" onclick="display('sectionhome')">Back</button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="section3bhk">
+        <div class="flat-3bhk-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="image-3bhk" />
+            <h1 class="bhk-heading">Rs 3000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" />
+                <p class="bhk-paragraph">D/N 5-2,Food Street,Indore</p>
+            </div>
+            <hr />
+            <div>
+                <h1 class="bhk-heading">Description</h1>
+                <p class="bhk-paragraph">This is a fully furnished house</p>
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button">Confirm</button>
+                <button class="button" onclick="display('sectionflats')">Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="section2bhk">
+        <div class="flat-3bhk-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="image-3bhk" />
+            <h1 class="bhk-heading">Rs 2000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" />
+                <p class="bhk-paragraph">D/N 5-2,Food Street,Indore</p>
+            </div>
+            <hr />
+            <div>
+                <h1 class="bhk-heading">Description</h1>
+                <p class="bhk-paragraph">This is a fully furnished house</p>
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button">Confirm</button>
+                <button class="button" onclick="display('sectionflats')">Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="section4bhk">
+        <div class="flat-3bhk-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" class="image-3bhk" />
+            <h1 class="bhk-heading">Rs 4000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" />
+                <p class="bhk-paragraph">D/N 5-2,Food Street,Indore</p>
+            </div>
+            <hr />
+            <div>
+                <h1 class="bhk-heading">Description</h1>
+                <p class="bhk-paragraph">This is a fully furnished house</p>
+            </div>
+            <div class="d-flex flex-row">
+                <button class="button">Confirm</button>
+                <button class="button" onclick="display('sectionflats')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

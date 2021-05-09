@@ -1,0 +1,88 @@
+.top-section-bg-image {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    background-size: cover;
+    height: 43vh;
+}
+
+.episodes {
+    margin: 10px;
+}
+
+.duration {
+    color: #151765;
+    font-family: 'Roboto';
+    font-size: 10px;
+}
+
+.podcasts {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.mainheading {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 25px;
+    padding: 15px;
+}
+
+
+.card1 {
+    margin: 10px;
+    text-align: center;
+}
+
+
+.card1-heading {
+    font-family: 'Roboto';
+    color: #151765;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.puri-heading {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 30px;
+    padding: 12px;
+    text-align: right;
+
+}
+
+.jagannadh-top {
+    background-color: #151765;
+    height: 170px;
+    padding: 20px;
+}
+
+.button {
+    color: #ffffff;
+    border-radius: 15px;
+    background-color: #151765;
+
+}
+
+
+.card1-paragraph {
+    font-family: 'Roboto';
+    color: #5a7184;
+    font-size: 16px;
+
+}
+
+.text-container {
+    padding: 10px;
+}
+
+.duration {
+    color: #151765;
+    font-family: 'Roboto';
+    font-size: 10px;
+}
+
+.image-card1 {
+    height: 112px;
+    width: 144px;
+    margin-top: 10px;
+}

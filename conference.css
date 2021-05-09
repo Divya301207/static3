@@ -1,0 +1,33 @@
+.image-card {
+    width: 100vw;
+}
+
+.bottom-section {
+    background-color: white;
+
+}
+
+.home-heading {
+    font-family: 'Roboto';
+    color: #183b56;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card1 {
+    background-color: #ffffff;
+    margin: 35px;
+    padding: 20px;
+}
+
+
+.home-paragraph {
+    font-family: 'Roboto';
+    color: #5a7184;
+    text-align: center;
+}
+
+.top-detailed-view {
+    height: 60vh;
+}

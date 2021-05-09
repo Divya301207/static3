@@ -1,0 +1,71 @@
+.home-background {
+    background-color: #225db0;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 35px;
+
+}
+
+.home-paragraph {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+
+}
+
+.image-heading {
+    color: #1f2933;
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+.image-container1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+
+}
+
+.image-container2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+
+}
+
+.image-container3 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+
+}
+
+.image-container4 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+
+}
+
+.home-image-card1 {
+    width: 100px;
+    height: 75px;
+    padding: 10px;
+
+}
+
+.button {
+    border-color: #ffffff;
+}
